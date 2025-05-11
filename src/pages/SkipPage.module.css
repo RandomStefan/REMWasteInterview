@@ -1,0 +1,45 @@
+.wrapper {
+    color: aqua;
+    padding-top: 0%;
+}
+
+.heading {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.redText {
+    /*DELETE*/
+    color: red;
+}
+
+.pageSeparation {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    height: fit-content;
+    align-self: flex-start;
+}
+
+.mainContent {
+    width: 70%;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}

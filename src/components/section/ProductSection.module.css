@@ -1,0 +1,24 @@
+.wrapper {
+    width: 100%;
+    border: 1px solid rgb(57, 57, 57);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: rgb(41, 41, 41);
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: rgb(41, 41, 41);
+    color: white
+}
+
+.content {
+    padding: 1rem;
+    background-color: rgb(41, 41, 41);
+    color: white
+}

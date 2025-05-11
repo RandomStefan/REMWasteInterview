@@ -10,11 +10,39 @@
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 1rem;
     cursor: pointer;
     background-color: rgb(41, 41, 41);
-    color: white
+    color: white;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.headerLeft {
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.headerRight {
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.headerSectionButton {
+    width: 150px;
+    height: 35px;
 }
 
 .content {

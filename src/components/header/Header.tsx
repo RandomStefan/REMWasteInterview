@@ -6,11 +6,11 @@ import { MapPin, Trash2, Truck, Shield, Calendar, CreditCard } from 'lucide-reac
 export default function Header() {
     return (<>
         <div className={styles.wrapper}>
-            <HeaderButton icon={MapPin} text="Postcode" url='' />
-            <HeaderDivider />
-            <HeaderButton icon={Trash2} text="Waste Type" url='' />
-            <HeaderDivider />
-            <HeaderButton icon={Truck} text="Select Skip" url='' />
+            <HeaderButton icon={MapPin} text="Postcode" url='' color='blue'/>
+            <HeaderDivider color='blue' />
+            <HeaderButton icon={Trash2} text="Waste Type" url='' color='blue'/>
+            <HeaderDivider color='blue' />
+            <HeaderButton icon={Truck} text="Select Skip" url='' color='blue'/>
             <HeaderDivider />
             <HeaderButton icon={Shield} text="Permit Check" url='' />
             <HeaderDivider />

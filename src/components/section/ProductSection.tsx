@@ -13,10 +13,14 @@ export default function ProductSection({ title, price, children }: DropdownSecti
     return (
         <div className={styles.wrapper}>
             <div className={styles.header} onClick={() => setIsOpen(!isOpen)}>
-                {isOpen ? <ChevronUp /> : <ChevronDown />}
-                <h2>{title}</h2>
-                <p>{price}$</p>
-                <button onClick={() => setIsOpen(!isOpen)}>Select</button>
+                <div className={styles.headerLeft}>
+                    {isOpen ? <ChevronUp /> : <ChevronDown />}
+                    <h2>{title}</h2>
+                </div>
+                <div className={styles.headerRight}>
+                    <p>{price}$</p>
+                    <button className={styles.headerSectionButton} onClick={() => setIsOpen(!isOpen)}>Select</button>
+                </div>
             </div>
             {isOpen && <div className={styles.content}>{children}</div>}
         </div>

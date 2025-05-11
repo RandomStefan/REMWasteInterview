@@ -7,3 +7,15 @@
     flex-direction: row;
     gap: 10px;
 }
+
+.gray {
+    color: #6c757d84;
+  }
+  
+  .blue {
+    color: rgb(0 55 193);
+  }
+
+  .textgray {
+    color: #6c757d84;
+  }

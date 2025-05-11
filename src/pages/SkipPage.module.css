@@ -1,5 +1,5 @@
 .wrapper {
-    color: aqua;
+    color: white;
     padding-top: 0%;
 }
 
@@ -9,9 +9,9 @@
     text-align: center;
 }
 
-.redText {
-    /*DELETE*/
-    color: red;
+.centeredText {
+    font-size: 20px;
+    text-align: center;
 }
 
 .pageSeparation {
@@ -42,4 +42,23 @@
     overflow-x: hidden;
     scrollbar-width: none;
     -ms-overflow-style: none;
+}
+
+.productSectionWrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.productSectionRight{
+    display: flex;
+}
+
+.productPhoto{
+    width: 290px;
+    height: 190px;
+    border-radius: 10px;
 }

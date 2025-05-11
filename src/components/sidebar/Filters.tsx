@@ -9,7 +9,7 @@ export default function Filter({ label, onFilterToggle }: FilterProps) {
     return (
         <div className={styles.wrapper}>
             <p>{label}</p>
-            <input type='checkbox' onChange={(event) => { onFilterToggle(event) }} />
+            <input className={styles.checkbox} type='checkbox' onChange={(event) => { onFilterToggle(event) }} />
         </div>
     )
 }

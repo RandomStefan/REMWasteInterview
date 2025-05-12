@@ -13,4 +13,5 @@
     padding-bottom: .5%;
     width: 100%;
     gap: 20px;
+    overflow-x: auto;
 }

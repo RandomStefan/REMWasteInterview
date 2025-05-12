@@ -1,52 +1,78 @@
 .wrapper {
-    width: 100%;
-    border: 1px solid rgb(57, 57, 57);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    background-color: rgb(41, 41, 41);
-    overflow: hidden;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    cursor: pointer;
-    background-color: rgb(41, 41, 41);
-    color: white;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-}
-
-.headerLeft {
-    display: flex;
-    align-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.headerRight {
-    display: flex;
-    align-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+  width: 100%;
+  border: 1px solid rgb(57, 57, 57);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-color: rgb(41, 41, 41);
+  overflow: hidden;
 }
 
 .headerSectionButton {
-    width: 150px;
-    height: 35px;
+  background-color: rgb(0, 55, 193);
+  color: white;
+  text-align: center;
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid #6c757d;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3sease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerSectionButton:hover {
+  background-color: rgb(0, 45, 173);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.headerLeft {
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.headerRight {
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.headerSectionButton {
+  width: 150px;
+  height: 35px;
 }
 
 .content {
-    padding: 1rem;
-    background-color: rgb(41, 41, 41);
-    color: white
+  padding: 1rem;
+  background-color: rgb(41, 41, 41);
+  color: white;
 }
